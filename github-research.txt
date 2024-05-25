@@ -1,0 +1,20 @@
+GitHub is a web-based platform used for version control and collaborative software development. It allows multiple developers to work on a project simultaneously and track changes to code over time.
+
+A repository (or "repo") is a storage space where your project's files and revision history are kept. It can contain folders and files, images, videos, spreadsheets, and data sets – anything your project needs.
+
+Branches allow you to diverge from the main codebase to work on features, bug fixes, or experiments independently.
+
+A pull request (PR) is a method of submitting contributions to a project. When you open a pull request, you're proposing your changes and requesting that someone review and pull in your contribution.
+
+`git init` is used to initialize a new repository
+
+`git clone` is used to locally clone a repo from the cloud repo
+
+`git add` stages changes to be committed.
+
+`git commit` commits the staged changes with a message describing the changes.
+
+`git push` pushes the committed changes to the remote repository.
+
+`git pull` fetches and merges changes from the remote repository to your local branch.
+

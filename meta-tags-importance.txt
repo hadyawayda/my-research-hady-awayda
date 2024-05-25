@@ -1,0 +1,10 @@
+Meta tags are pieces of code on a webpage that describe what the webpage is about.
+
+Meta tags, sometimes referred to as metadata, include the title tag, meta description tag, and the keywords tag (although the meta keywords tag is now rarely used) and a few others.
+
+Meta tags serve a key role in search engine optimization, including:
+
+- Helping the search engines determine the topic of your webpage
+- Helping people understand the contents of your webpage
+- Avoiding duplicate content issues
+- Driving clicks and organic search traffic
