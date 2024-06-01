@@ -1,0 +1,3 @@
+JSON (JavaScript Object Notation) is a lightweight data interchange format that's easy for humans to read and write and easy for machines to parse and generate. A JSON file contains data in a structured format using key-value pairs, arrays, and other data types. It is commonly used for exchanging data between a server and a web application.
+
+To read a JSON file in JavaScript, we can use the fetch API. To write JSON data to a file, we can use the fs module in Node.js.
