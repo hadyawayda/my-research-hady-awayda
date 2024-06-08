@@ -1,0 +1,73 @@
+ArrayList:
+- ArrayList is a resizable array implementation of the List interface in Java.
+- Dynamic arrays that can grow as needed.
+- Provides random access to elements, meaning you can quickly retrieve elements by their index.
+- Maintains the order of insertion.
+- key methods include:
+	add(E e): Appends the specified element to the end of the list.
+	get(int index): Returns the element at the specified position in the list.
+	set(int index, E element): Replaces the element at the specified position with the specified element.
+	remove(int index): Removes the element at the specified position.
+	size(): Returns the number of elements in the list.
+	clear(): Removes all elements from the list.
+	contains(Object o): Returns true if the list contains the specified element.
+
+HashSet:
+- HashSet is an implementation of the Set interface, backed by a hash table.
+- Ensures no duplicate elements.
+- Provides constant-time performance for basic operations like add, remove, and contains.
+- Does not maintain any order of elements.
+- key methods include:
+	add(E e): Adds the specified element to the set if it is not already present.
+	remove(Object o): Removes the specified element from the set if it is present.
+	contains(Object o): Returns true if the set contains the specified element.
+	size(): Returns the number of elements in the set.
+	clear(): Removes all elements from the set.
+
+HashMap:
+- HashMap is an implementation of the Map interface, backed by a hash table.
+- Stores key-value pairs.
+- Provides constant-time performance for basic operations like get and put.
+- Allows one null key and multiple null values.
+- key methods include:
+	put(K key, V value): Associates the specified value with the specified key in the map.
+	get(Object key): Returns the value to which the specified key is mapped.
+	remove(Object key): Removes the mapping for the specified key.
+	containsKey(Object key): Returns true if the map contains the specified key.
+	size(): Returns the number of key-value mappings.
+	clear(): Removes all mappings from the map.
+
+Stack:
+- Stack is a subclass of Vector that implements a last-in-first-out (LIFO) stack of objects.
+- Suitable for applications that need to process data in a LIFO manner.
+- Commonly used for parsing expressions, backtracking algorithms, etc.
+- key methods include:
+	push(E item): Pushes an item onto the top of the stack.
+	pop(): Removes and returns the top item of the stack.
+	peek(): Returns the top item of the stack without removing it.
+	isEmpty(): Returns true if the stack is empty.
+	search(Object o): Returns the 1-based position of the object from the top of the stack.
+
+Queue:
+- Queue is an interface that represents a first-in-first-out (FIFO) collection of elements.
+- Suitable for applications that need to process data in a FIFO manner.
+- Commonly used in task scheduling, breadth-first search algorithms, etc.
+- key methods include:
+	add(E e): Inserts the specified element into the queue.
+	offer(E e): Inserts the specified element into the queue if possible.
+	remove(): Removes and returns the head of the queue.
+	poll(): Retrieves and removes the head of the queue, or returns null if the queue is empty.
+	element(): Retrieves, but does not remove, the head of the queue.
+	peek(): Retrieves, but does not remove, the head of the queue, or returns null if the queue is empty.
+
+Priority Queue:
+- PriorityQueue is an implementation of the Queue interface that orders its elements according to their natural ordering or by a comparator provided at queue construction time.
+- Suitable for applications that need to process elements in order of priority.
+- Commonly used in task scheduling, Dijkstra's algorithm, etc.
+- key methods include:
+	add(E e): Inserts the specified element into the priority queue.
+	offer(E e): Inserts the specified element into the priority queue if possible.
+	remove(): Removes and returns the head of the queue.
+	poll(): Retrieves and removes the head of the queue, or returns null if the queue is empty.
+	peek(): Retrieves, but does not remove, the head of the queue, or returns null if the queue is empty.
+	comparator(): Returns the comparator used to order the elements, or null if the natural ordering is used.
