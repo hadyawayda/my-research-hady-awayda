@@ -1,0 +1,19 @@
+File and Stream Handling:
+
+- File and stream handling is a crucial aspect of Java programming, enabling the reading and writing of data to files. This involves understanding the different types of streams and how to effectively manage data flow.
+
+Byte Streams and Character Streams:
+
+- Byte streams handle input and output of 8-bit bytes. They are useful for binary data, such as image and audio files. The main classes are InputStream and OutputStream.
+- Character streams handle input and output of 16-bit Unicode characters. They are useful for text data. The main classes are Reader and Writer.
+
+Reading from and Writing to Files:
+
+- Reading can be done using FileInputStream for bytes and FileReader for characters. Buffered classes (BufferedReader) are used for efficiency.
+- Writing can be done using FileOutputStream for bytes and FileWriter for characters. Buffered classes (BufferedWriter) are used for efficiency.
+
+BufferedReader and BufferedWriter:
+
+-BufferedReader and BufferedWriter provide buffering for efficient reading and writing of characters, arrays, and lines. They are wrapped around Reader and Writer objects.
+- BufferedReader: Reads text from a character-input stream, buffering characters to provide efficient reading of characters, arrays, and lines.
+- BufferedWriter: Writes text to a character-output stream, buffering characters to provide efficient writing of characters, arrays, and lines.
