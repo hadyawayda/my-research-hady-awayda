@@ -1,0 +1,36 @@
+JDK:
+- JDK is a software development kit provided by Oracle Corporation used for developing Java applications and applets. It includes tools for Java development, such as a compiler (javac), a documentation generator (javadoc), an archiver (jar), and other tools needed for developing Java programs.
+- Components: 
+	Java Compiler (javac)
+	Java Debugger (jdb)
+	Java Archive (jar)
+	Java Runtime Environment (JRE).
+
+JRE:
+- JRE is a package of tools designed to run Java programs. It is a subset of the JDK and provides the libraries, Java Virtual Machine (JVM), and other components to execute Java applications. It does not contain tools for Java development like the compiler and debugger.
+- Components:
+	JVM: Runs Java applications.
+	Java Class Libraries: Essential libraries that Java programs need to run.
+	Deployment Technologies: Such as Java Web Start and Java Plug-in.
+
+JVM:
+- JVM is a virtual machine that enables a computer to run Java programs. It is platform-independent, meaning that the same Java program can run on any machine that has a JVM installed. The JVM executes Java bytecode, converting it to machine code for execution.
+- Functions: 
+	Class Loader: Loads class files.
+	Bytecode Verifier: Ensures the bytecode does not violate Java's security restrictions.
+	Interpreter: Executes bytecode instructions.
+	Just-In-Time (JIT) Compiler: Converts bytecode into native machine code for better performance during runtime.
+
+Differences:
+- Purpose:
+	JDK: For Java development. It contains the JRE, a compiler, and other development tools.
+	JVM: For running Java bytecode on any device or OS with the JVM installed.
+	JRE: For running Java applications. It includes the JVM and libraries, but not the development tools.
+- Components:
+	JDK: Contains JRE, JVM, and development tools.
+	JVM: Part of the JRE; it interprets or compiles Java bytecode into machine code.
+	JRE: Contains the JVM and libraries required for running Java applications, but no development tools.
+- Usage:
+	JDK = JRE + Development Tools (Compiler, Debugger, etc.)
+	JRE = JVM + Libraries for running Java applications
+	JVM = Engine to run Java applications, converting bytecode to machine code
